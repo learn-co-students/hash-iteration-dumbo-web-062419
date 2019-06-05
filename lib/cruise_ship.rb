@@ -6,9 +6,12 @@
 # suite_e: "Crumpet the Elf"
 # }
 
+winner = " "
 def select_winner(passengers)
   # add the code snippet here!
-  passengers.each do |key, value|
-    passenger.select if key == suite_a
-
+  passengers.each do |suite, name|
+    if suite == suite_a && name.start_with?("A")
+      winner = name
+    end
+winner
 end
